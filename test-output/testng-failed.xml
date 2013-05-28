@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [InstudiesAutotests]">
+  <test name="LoginTest(failed)">
+    <classes>
+      <class name="com.instudies.autotests.BasicTestCase">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.instudies.autotests.BasicTestCase -->
+      <class name="com.instudies.autotests.LoginTest">
+        <methods>
+          <include name="testLogin"/>
+        </methods>
+      </class> <!-- com.instudies.autotests.LoginTest -->
+    </classes>
+  </test> <!-- LoginTest(failed) -->
+</suite> <!-- Failed suite [InstudiesAutotests] -->

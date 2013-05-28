@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="InstudiesAutotests" duration-ms="9299" started-at="2013-05-28T17:13:41Z" finished-at="2013-05-28T17:13:50Z">
+    <groups>
+    </groups>
+    <test name="LoginTest" duration-ms="9299" started-at="2013-05-28T17:13:41Z" finished-at="2013-05-28T17:13:50Z">
+      <class name="com.instudies.autotests.BasicTestCase">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.instudies.autotests.BasicTestCase@35a8d460]" name="setUp" is-config="true" duration-ms="23" started-at="2013-05-28T20:13:41Z" finished-at="2013-05-28T20:13:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.instudies.autotests.BasicTestCase@35a8d460]" name="tearDown" is-config="true" duration-ms="239" started-at="2013-05-28T20:13:50Z" finished-at="2013-05-28T20:13:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.instudies.autotests.BasicTestCase -->
+      <class name="com.instudies.autotests.LoginTest">
+        <test-method status="PASS" signature="testLogin()[pri:0, instance:com.instudies.autotests.LoginTest@63f8247d]" name="testLogin" duration-ms="9004" started-at="2013-05-28T20:13:41Z" finished-at="2013-05-28T20:13:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+      </class> <!-- com.instudies.autotests.LoginTest -->
+    </test> <!-- LoginTest -->
+  </suite> <!-- InstudiesAutotests -->
+</testng-results>
