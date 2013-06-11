@@ -8,10 +8,10 @@ import com.instudies.utils.ConfigProperties;
 
 public class MainPage extends Page {
 	
-	@FindBy(linkText="Войти")
+	@FindBy(css=".side-navigation__block li a:first")
 	public WebElement buttonLogin;
 	
-	@FindBy(linkText="Регистрация")
+	@FindBy(css=".side-navigation__block li a:last")
 	public WebElement buttonRegistration;
 	
 	public MainPage(WebDriver driver) {

@@ -1,7 +1,7 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
   
 <suite name="InstudiesAutotests" verbose="1" >
-  <test name="LoginTest">
+  <test name="Autotests">
 	<packages>
 		<package name="com.instudies.autotests" />
 	</packages>

@@ -17,7 +17,8 @@ private UserActivityPage userActivityPage;
 @Test
   public void testLogin() throws Exception {
 	  loginPage.open();
-	  userActivityPage = loginPage.loginAs(firstUser); 
+	  userActivityPage = loginPage.loginAs(firstUser);
+	  Thread.sleep(10000);
 	  assertTrue(userActivityPage.isLoggedIn());
   }
 

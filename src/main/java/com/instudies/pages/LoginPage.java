@@ -14,22 +14,21 @@ public class LoginPage extends Page {
 		super(driver);
 	}
 
-	@FindBy(id="auth_login_email")
+	@FindBy(id="email")
 	public WebElement fieldLoginEmail;
 	
-	@FindBy(id="auth_login_password")
+	@FindBy(id="password")
 	public WebElement fieldLoginPassword;
 	
-	@FindBy(xpath="//html/body/div/div/div/div/form/footer/button")
+	@FindBy(xpath="//button[@type='submit']")
 	public WebElement buttonLogin;
 	
 	@Override
 	public void open() {
-		driver.get(ConfigProperties.getProperty("url")+"/#/preloadedpopup/popupLogin");
+		driver.get(ConfigProperties.getProperty("url")+"/security/login");
 	}
 	
 	public UserActivityPage loginAs(UserData user) {
-		buttonLogin.click();
 		fill(fieldLoginEmail, user.email);
 		fill(fieldLoginPassword, user.password);
 		buttonLogin.click();

@@ -14,7 +14,7 @@ public class BasicTestCase {
 	
 	protected static WebDriver driver;
 	
-	public UserData firstUser = new UserData("Autotest Login", "1234567");
+	public UserData firstUser = new UserData("autotestuser@mailinator.com", "1234567", "Autotest User");
 	
 	protected WebDriver getWebDriver() {
 		if (driver == null) {
