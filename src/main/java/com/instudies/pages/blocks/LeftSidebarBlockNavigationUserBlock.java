@@ -18,19 +18,19 @@ public class LeftSidebarBlockNavigationUserBlock extends Page {
 	public void open() {}
 	
 	@FindBy(css="a[data-test-linkuserprofile]")
-	public WebElement userProfileLink;
+	public WebElement linkUserProfile;
 	
 	@FindBy(css="a[data-test-linklogout]")
-	public WebElement logoutLink;
+	public WebElement linkLogout;
 	
 	@FindBy(css="a[data-test-linkallactivity]")
-	public WebElement allActivityLink;
+	public WebElement linkAllActivity;
 
-	@FindBy(css="a[data-test-linkpersonalnotes]")
-	public WebElement personalNotesLink;
+	@FindBy(css="a[data-test-linkmessages]")
+	public WebElement linkMessages;
 	
 	public MainPage logout() {
-		logoutLink.click();
+		linkLogout.click();
 		return PageFactory.initElements(driver, MainPage.class);
 	}
 	
