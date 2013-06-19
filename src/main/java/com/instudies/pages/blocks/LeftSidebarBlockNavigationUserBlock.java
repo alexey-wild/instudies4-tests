@@ -26,8 +26,8 @@ public class LeftSidebarBlockNavigationUserBlock extends Page {
 	@FindBy(css="a[data-test-linkallactivity]")
 	public WebElement linkAllActivity;
 
-	@FindBy(css="a[data-test-linkmessages]")
-	public WebElement linkMessages;
+	@FindBy(css="a[data-test-linkinbox]")
+	public WebElement linkinbox;
 	
 	public MainPage logout() {
 		linkLogout.click();
