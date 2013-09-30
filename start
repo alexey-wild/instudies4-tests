@@ -1,1 +1,0 @@
-export DISPLAY=:99 && sudo java -classpath /instudies4/tests/bin:/usr/lib/selenium/selenium-server-standalone-2.33.0.jar org.testng.TestNG /instudies4/tests/testng.xml
