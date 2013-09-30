@@ -2,7 +2,7 @@ automatic/test-output/
 automatic/.metadata/
 automatic/*.class
 
-load/reports/*
+load/reports/*.csv
 
 # Package Files #
 *.jar
