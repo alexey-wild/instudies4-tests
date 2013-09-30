@@ -1,6 +1,8 @@
-test-output/
-.metadata/
-*.class
+automatic/test-output/
+automatic/.metadata/
+automatic/*.class
+
+load/reports/*
 
 # Package Files #
 *.jar
